@@ -1,13 +1,5 @@
 alert("Bienvenidos a Cosmos Indumentaria");
 
-/* 
-1. Que desea comprar? Remera, Pantalón, Short, Buzo, Campera.
-2. Que tipo
-3. Que talle?
-4. Cuantas cantidades?
-5. Agregaste tal prenda, tal talle, tal cantidad.
-*/
-
 let prenda;
 let tipo;
 let talle;
@@ -30,7 +22,7 @@ do{
                     alert("Elegiste una "+ prenda + " " + tipo);
                     break;        
                 default:
-                    alert("Elija una opción.")
+                    alert("Opción no válida.")
                     break;
             }
             talles("remera"); 
@@ -51,7 +43,7 @@ do{
                         alert("Elegiste un " + prenda + " " + tipo);
                         break;        
                     default:
-                        alert("Elija una opción.")
+                        alert("Opción no válida.")
                         break;
                 }
                 talles("pantalón"); 
@@ -69,7 +61,7 @@ do{
                         alert("Elegiste un " + prenda + " " + tipo);
                         break;       
                     default:
-                        alert("Elija una opción.")
+                        alert("Opción no válida.")
                         break;
                 }
                 talles("short");  
@@ -87,7 +79,7 @@ do{
                         alert("Elegiste un " + prenda + " " + tipo);
                         break;       
                     default:
-                        alert("Elija una opción.")
+                        alert("Opción no válida.")
                         break;
                 }
                 talles("buzo"); 
@@ -105,7 +97,7 @@ do{
                         alert("Elegiste una " + prenda + " " + tipo);
                         break;       
                     default:
-                        alert("Elija una opción.")
+                        alert("Opción no válida.")
                         break;
                 }
                 talles("campera"); 
